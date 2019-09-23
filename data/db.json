@@ -1,0 +1,19 @@
+{
+  "categories": [
+    {
+      "_id": "1",
+      "name": "phones",
+      "display_name": "Smartphones and Devices",
+      "description": "Cellular devices with internet capabilities."
+    }
+  ],
+  "products": [
+    {
+      "_id": 1,
+      "category": "phones",
+      "name": "iPhone11",
+      "display_name": "Apple iPhone 11",
+      "description": "The newest phone in the lineup of pretty phones that brings you a 3rd camera that doesn't change anything."
+    }
+  ]
+}
