@@ -9,7 +9,7 @@
     "url" : "http://localhost:3000"
   } ],
   "paths" : {
-    "/categories/2" : {
+    "/categories/{id}" : {
       "put" : {
         "description" : "Request to update category by id",
         "requestBody" : {
@@ -213,7 +213,7 @@
         "url" : "http://localhost:3000"
       } ]
     },
-    "/products/2" : {
+    "/products/{id}" : {
       "put" : {
         "description" : "Request to update product by id",
         "requestBody" : {
