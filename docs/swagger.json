@@ -10,6 +10,9 @@
   } ],
   "paths" : {
     "/categories/{id}" : {
+      "parameters": {
+        "- in": "path"
+      },
       "put" : {
         "description" : "Request to update category by id",
         "requestBody" : {
